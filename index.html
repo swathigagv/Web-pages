@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bundle & Save</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Bundle & Save</h3>
+        <div class="bundle" onclick="selectBundle(this, 195 ,1)">
+        <input type="radio" name="bundle" value="1 Pair"> 
+        <span>1 Pair - DKK 195.00 (50% OFF)</span>               
+        <div class="options" id="options-1"></div>
+    </div>
+    <div class="bundle" onclick="selectBundle(this, 345 , 2)">
+        <input type="radio" name="bundle" value="2 Pair"> 
+        <span>2 Pair - DKK 345.00 (40% OFF)</span>
+         <div class="options" id="options-2"></div>
+    </div>    
+    <div class="bundle" onclick="selectBundle(this, 528 ,3)">
+        <input type="radio" name="bundle" value="3 Pair"> 
+        <span>3 Pair - DKK 528.00 (60% OFF)</span>
+        <div class="options" id="options-3"></div>
+    </div>
+
+    <h4>Total: DKK <span id="total">0</span></h4>
+    <button class="button">+ Add to Cart</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
